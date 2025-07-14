@@ -4,8 +4,9 @@
 
 **How to use the App:**
 
-1) git clone 
-2) To compile the build, type "gradlew build"
-3) to run the app, type "gradlew run"
-4) once finished running the app, type "gradlew clean"
-5) to run tests, run "gradlew test"
+1) cd into Daily-Mood-Tracker 
+2) git clone 
+3) To compile the build, type "gradlew build"
+4) to run the app, type "gradlew run"
+5) once finished running the app, type "gradlew clean"
+6) to run tests, run "gradlew test"
