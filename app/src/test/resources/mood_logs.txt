@@ -1,0 +1,4 @@
+Date, Mood, Time of Day, Reason
+Date, Mood, Time of Day, Reason
+Date, Mood, Time of Day, Reason
+Date, Mood, Time of Day, Reason

@@ -1,0 +1,10 @@
+Date, Mood, Time of Day, Reason
+01/25/2021, Happy, midnight, sisters birthday
+09/22/2023, sad, back to school, afternoon
+01/01/2021, Happy, midnight, new year new beginnings
+08/07/2022, depressed, because, evening
+05/06/2025, happy, first day of summer, morning
+02/02/2025, ok, because, morning
+02/03/2022, ok, because, morning
+02/03/2022, ok, morning, because 
+01/01/2023, Happy, Morning, New Year new beginnings.
