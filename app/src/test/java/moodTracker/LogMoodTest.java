@@ -139,6 +139,7 @@ public class LogMoodTest {
     public void testRetrieveSpecificDate() {
         LogMood logMood1 = new LogMood();
         logMood1.setDate("01/01/2023");
+        logMood1.retrieveSpecificDate();
         boolean matchedDates = true;
         try {
             String dateFile = System.getProperty("user.dir") + "/src/main/resources/mood_log_by_date.txt";
@@ -164,6 +165,7 @@ public class LogMoodTest {
     public void testRetrieveSpecificMood() {
         LogMood logMood1 = new LogMood();
         logMood1.setMood("Happy");
+        logMood1.retrieveSpecificMood();
         boolean matchedMoods = true;
         try {
             String moodFile = System.getProperty("user.dir") + "/src/main/resources/mood_log_by_mood.txt";

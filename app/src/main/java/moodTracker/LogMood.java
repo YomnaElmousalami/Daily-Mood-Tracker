@@ -119,7 +119,7 @@ public class LogMood {
             BufferedReader text = new BufferedReader(new FileReader(filePath));
 
             String newFile = System.getProperty("user.dir") + "/src/main/resources/mood_log_by_date.txt";
-            BufferedWriter writer = new BufferedWriter(new FileWriter(newFile, true));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(newFile, false));
             text.readLine(); 
 
             String str;
@@ -148,7 +148,7 @@ public class LogMood {
             BufferedReader text = new BufferedReader(new FileReader(filePath));
 
             String moodFile = System.getProperty("user.dir") + "/src/main/resources/mood_log_by_mood.txt";
-            BufferedWriter writer = new BufferedWriter(new FileWriter(moodFile, true));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(moodFile, false));
             text.readLine();
 
             String str;
