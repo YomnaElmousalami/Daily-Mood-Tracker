@@ -22,14 +22,14 @@ public class MoodTracker {
             System.out.println("1. Log Mood");
             System.out.println("2. View Mood Log by Date");
             System.out.println("3. View Mood Log by Mood Type");
-            System.out.println("4. Sort Mood Log by Date (Ascending Order)");
+            System.out.println("4. Sort Mood Log by Date (Chronological Order)");
             System.out.println("5. Exit\n");
 
             choice = userInput.nextLine();
 
             if(choice.equals("1")){
                 System.out.println("You selected to log your mood.");
-                System.out.println("Please enter the date, mood, time of day (morning, afternoon, evening), and reason for your mood. Seperate your answers by a comma:");
+                System.out.println("Please enter the date (MM/DD/YYYY), mood, time of day (morning, afternoon, evening), and reason for your mood. Seperate your answers by a comma:");
                 do{
                     mood = moodInput.nextLine();
                     inputs = mood.split(",");
